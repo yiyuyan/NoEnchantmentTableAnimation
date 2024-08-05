@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "neta",
+  "version": "${version}",
+  "name": "NoEnchantmentTableAnimation",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/NoEnchantmentTableAnimation"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "cn.ksmcbrigade.neta.NoEnchantmentTableAnimation"
+    ]
+  },
+  "mixins": [
+    "neta.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
